@@ -6,7 +6,8 @@ import java.util.UUID;
 
 public interface CheckEntityService {
     void checkExist(Long id, JpaRepository repository, String objectName);
-
+    void checkExistCustomerReturnsById(Long id);
+/*
     void checkExistUnitById(Long unitId);
 
 
@@ -95,7 +96,7 @@ public interface CheckEntityService {
     void checkExistBonusTransactionById(Long bonusTransactionId);
 
     void checkExistApplicationById(Long id);
-
+*/
     void checkExistSettingsById(Long settingsId);
 
     void checkExistLanguageById(Long settingsId);
@@ -105,6 +106,8 @@ public interface CheckEntityService {
     void checkExistStartScreenById(Long startScreenId);
 
     void checkExistNotificationsById(Long notificationsId);
-
+/*
     void checkExistSelectorById(Long selectorId);
+
+ */
 }
