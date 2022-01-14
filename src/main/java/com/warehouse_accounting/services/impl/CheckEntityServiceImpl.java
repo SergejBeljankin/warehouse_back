@@ -17,8 +17,8 @@ public class CheckEntityServiceImpl implements CheckEntityService {
             throw new NotFoundEntityException(objectName + " с id=" + id + " не найден");
         }
     }
-    public boolean checkExistCustomerReturnsById(Long id){
-        return ;
+    public void checkExistCustomerReturnsById(Long id){
+
     }
     // методы которые  нужно реализовать
     public void checkExistSettingsById(Long settingsId){
